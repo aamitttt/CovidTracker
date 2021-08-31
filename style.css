@@ -1,0 +1,26 @@
+.cards{
+    text-align: center;
+}
+
+#c1{
+    margin-top: 100px;
+
+    margin-left: 40%;
+}
+#c3{
+margin-top: -100px;
+    margin-left: 70%;
+}
+#c2{
+margin-top: 100px;
+    margin-left: 10%;
+}
+#c4{
+    margin-top: 200px;
+        margin-left: 40%;
+    }
+.code{
+
+    margin-top: -350px;
+    margin-left: 45%;
+}
