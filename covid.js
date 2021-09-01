@@ -75,6 +75,8 @@ prom.then((res)=>{
     return res.json();
 }).then((data)=>{
 var i=0;
+localStorage.setItem("country",getc);
+console.log(localStorage.getItem("country"));
     while(1)
     {
    
@@ -93,6 +95,8 @@ var i=0;
             document.getElementById("death").innerText=TotalDeaths;
             document.getElementById("newconfirm").innerText=NewConfirmed;
             document.getElementById("newdeath").innerText=NewDeaths;
+
+           
             
             
             break;
