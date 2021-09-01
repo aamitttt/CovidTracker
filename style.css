@@ -1,7 +1,8 @@
 .cards{
-    margin-top: 130px;
+    margin-top: -10px;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 body{
@@ -10,12 +11,12 @@ body{
 .dropdown{
 
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .code{
 
-    margin-top: -200px;
-    margin-left: 70px;
+    text-align: center;
+    margin-right: 50px;
 }
 #c1{
     margin-top: 10px;
