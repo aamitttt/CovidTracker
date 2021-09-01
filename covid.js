@@ -15,7 +15,7 @@ function my()
 
 
         document.getElementById("confirm").innerText=TotalConfirmed;
-        document.getElementById("code").innerText=code;
+        document.getElementById("coda").innerText=code;
         document.getElementById("death").innerText=TotalDeaths;
         document.getElementById("newconfirm").innerText=NewConfirmed;
         document.getElementById("newdeath").innerText=NewDeaths;
@@ -75,8 +75,7 @@ prom.then((res)=>{
     return res.json();
 }).then((data)=>{
 var i=0;
-localStorage.setItem("country",getc);
-console.log(localStorage.getItem("country"));
+
     while(1)
     {
    
