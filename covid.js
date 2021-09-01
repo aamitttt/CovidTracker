@@ -15,7 +15,7 @@ function my()
 
 
         document.getElementById("confirm").innerText=TotalConfirmed;
-        document.getElementById("coda").innerText=code;
+        document.getElementById("code").innerText=code;
         document.getElementById("death").innerText=TotalDeaths;
         document.getElementById("newconfirm").innerText=NewConfirmed;
         document.getElementById("newdeath").innerText=NewDeaths;
