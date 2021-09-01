@@ -1,29 +1,35 @@
 .cards{
+    margin-top: 130px;
     text-align: center;
+    margin-left: 200px;
 }
 
-#c1{
-    margin-top: 100px;
-
-    margin-left: 40%;
-}
-#c3{
-margin-top: -100px;
-    margin-left: 70%;
-}
-#c2{
-margin-top: 100px;
-    margin-left: 10%;
-}
-#c4{
-    margin-top: 200px;
-        margin-left: 40%;
-    }
-.code{
-
-    margin-top: -350px;
-    margin-left: 45%;
-}
 body{
     background-color: rgb(144, 161, 46);
+}
+.dropdown{
+
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.code{
+
+    margin-top: -200px;
+    margin-left: 70px;
+}
+#c1{
+    margin-top: 10px;
+    background-color: rgb(28, 156, 60);
+}
+#c2{
+    margin-top: 10px;
+    background-color: red;
+}
+#c3{
+    margin-top: 10px;
+    background-color: rgb(32, 78, 228);
+}
+#c4{
+    margin-top: 10px;
+    background-color: rgb(161, 17, 137);
 }

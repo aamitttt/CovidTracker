@@ -1,3 +1,34 @@
+
+function my()
+{
+    const prom = fetch('https://api.covid19api.com/summary');
+    prom.then((r)=>{
+        return r.json();
+    }).then((d)=>{
+
+        var j=76;
+        var code = d.Countries[j].CountryCode;
+        var NewConfirmed = d.Countries[j].NewConfirmed;
+        var NewDeaths = d.Countries[j].NewDeaths;
+        var TotalConfirmed = d.Countries[j].TotalConfirmed;
+        var TotalDeaths = d.Countries[j].TotalDeaths;
+
+
+        document.getElementById("confirm").innerText=TotalConfirmed;
+        document.getElementById("code").innerText=code;
+        document.getElementById("death").innerText=TotalDeaths;
+        document.getElementById("newconfirm").innerText=NewConfirmed;
+        document.getElementById("newdeath").innerText=NewDeaths;
+
+
+    })
+}
+
+
+
+
+
+
 const activecase = document.getElementsByClassName("active").value;
 
 
@@ -65,6 +96,15 @@ var i=0;
             
             
             break;
+        }else{
+
+            document.getElementById("confirm").innerText="Data Not availabe";
+            document.getElementById("code").innerText="Data Not availabe";
+            document.getElementById("death").innerText="Data Not availabe";
+            document.getElementById("newconfirm").innerText="Data Not availabe";
+            document.getElementById("newdeath").innerText="Data Not availabe";
+            
+            
         }
         i++;
 
