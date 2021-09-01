@@ -16,7 +16,8 @@ body{
 .code{
 margin-top: 10px;
     text-align: center;
-    margin-right: 150px;
+    margin-right: 100px;
+    color: brown;
 }
 #c1{
     margin-top: 10px;
@@ -34,3 +35,41 @@ margin-top: 10px;
     margin-top: 10px;
     background-color: rgb(161, 17, 137);
 }
+
+
+#c1:hover {
+    font-size: 150%;
+    border-radius: 9px;
+    background-color: rgb(255, 0, 242);
+  }
+
+#c2:hover {
+    font-size: 150%;
+    border-radius: 9px;
+    background-color: rgb(255, 0, 228);
+  }
+
+
+#c3:hover {
+    font-size: 150%;
+    border-radius: 9px;
+    background-color: rgb(255, 0, 228);
+  }
+
+   
+      
+      #c4:hover {
+        font-size: 300%;
+        border-radius: 9px;
+        background-color: rgb(255, 0, 228);
+      }
+
+      
+      #cname{
+          color: rgb(69, 37, 211);
+          font-size: 30px;
+      }
+      #c{
+        color: rgb(69, 37, 211);
+        font-size: 30px;
+    }
